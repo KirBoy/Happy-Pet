@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy Pet</title>
+  <link rel="apple-touch-icon" sizes="96x96" href="images/fav/android-chrome-96x96.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/fav/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/fav/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body id="body">
+
+  <header class="header" style="  background-image: url(images/bg.png);">
+    <div class="container">
+      <div class="header__inner">
+        <nav class="header__top">
+          <div class="header__links">
+            <a class="logo" href="#body">
+              <img class="logo__img" src="images/logo.png" alt="лого">
+              <img class="logo__adaptive" src="images/logo-adaprive.png" alt="лого">
+            </a>
+            <ul class="menu">
+              <li class="menu__item">
+                <a class="menu__link" href="">Главная</a>
+              </li>
+
+              <li class="menu__item">
+                <a class="menu__link" href="#friends">Друзья</a>
+              </li>
+
+              <li class="menu__item">
+                <a class="menu__link" href="#about">О сервисе</a>
+              </li>
+
+              <li class="menu__item">
+                <a class="menu__link" href="#footer">Контакты</a>
+              </li>
+
+              <li class="menu__item">
+                <a class="menu__link" href="tel:+79062341868">+7 (906) 243-18-68</a>
+              </li>
+
+              <li class="menu__item menu__item--adaptive">
+                <a class="header__cart header__cart--adaptive" href="#">
+                  <span class="sr-only">перейти в корзину</span>
+                  9765
+                  <span class="header__currency">р.</span>
+                  <div class="header__svg">
+                    <svg class="svg">
+                      <use xlink:href="images/sprite.svg#cart"></use>
+                    </svg>
+                  </div>
+                </a>
+              </li>
+            </ul>
+
+          </div>
+          <div class="header__btns">
+            <a class="header__cart" href="#">
+              <span class="sr-only">перейти в корзину</span>
+              9765
+              <span class="header__currency">р.</span>
+              <div class="header__svg">
+                <svg class="svg">
+                  <use xlink:href="images/sprite.svg#cart"></use>
+                </svg>
+              </div>
+            </a>
+            <button class="header__btn" type="button">
+              <svg class="svg-btn">
+                <use xlink:href="images/sprite.svg#btn"></use>
+              </svg>
+            </button>
+          </div>
+        </nav>
+        <div class="header__desc">
+          <h1 class="header__title">Твой новый друг с доставкой на дом</h1>
+          <div class="header__text">
+            <p>Онлайн-магазин домашних животных подарит тебе нового друга в несколько кликов. Действуй!</p>
+          </div>
+          <a class="header__button btn" href="#friends">Посмотреть друзей</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+    <div class="assort">
+      <div class="container">
+        <ul class="assort__inner">
+          <li class="assort__item">
+            <article class="pets">
+              <a class="pets__link" href="#">
+                <h3 class="pets__title">Собаки</h3>
+                <img class="pets__img" src="images/dog.png" alt="собака">
+              </a>
+            </article>
+          </li>
+
+          <li class="assort__item">
+            <article class="pets">
+              <a class="pets__link" href="#">
+                <h3 class="pets__title">Собаки</h3>
+                <img class="pets__img" src="images/dog.png" alt="собака">
+              </a>
+            </article>
+          </li>
+
+
+          <li class="assort__item">
+            <article class="pets">
+              <a class="pets__link" href="#">
+                <h3 class="pets__title">Собаки</h3>
+                <img class="pets__img" src="images/dog.png" alt="собака">
+              </a>
+            </article>
+          </li>
+
+          <li class="assort__item">
+            <article class="pets">
+              <a class="pets__link" href="#">
+                <h3 class="pets__title">Собаки</h3>
+                <img class="pets__img" src="images/dog.png" alt="собака">
+              </a>
+            </article>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+
+    <section class="friends" id="friends">
+      <div class="container">
+        <div class="friends__inner">
+          <div class="friends__title">
+            <h2 class="title">Почему выбирают наших друзей</h2>
+          </div>
+          <ul class="friends__list">
+
+            <li class="friends__item">
+              <div class="friends__svg">
+                <svg class="svg-friends">
+                  <use xlink:href="images/sprite.svg#dog"></use>
+                </svg>
+              </div>
+              <div class="friends__desc">
+                <h3 class="friends__subtitle">Их много</h3>
+                <div class="friends__text">
+                  <p>Огромный выбор животных, птиц и питомцев</p>
+                </div>
+              </div>
+            </li>
+
+            <li class="friends__item">
+              <div class="friends__svg friends__svg--green">
+                <svg class="svg-friends">
+                  <use xlink:href="images/sprite.svg#med"></use>
+                </svg>
+              </div>
+              <div class="friends__desc">
+                <h3 class="friends__subtitle">Они здоровы</h3>
+                <div class="friends__text">
+                  <p>Мы заботимся о каждом питомце, который с нами</p>
+                </div>
+              </div>
+            </li>
+
+            <li class="friends__item">
+              <div class="friends__svg friends__svg--pink">
+                <svg class="svg-friends">
+                  <use xlink:href="images/sprite.svg#love"></use>
+                </svg>
+              </div>
+              <div class="friends__desc">
+                <h3 class="friends__subtitle">Их любят</h3>
+                <div class="friends__text">
+                  <p>Мы окружаем любовью и вниманием наших друзей</p>
+                </div>
+              </div>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="catalog">
+      <div class="container">
+        <div class="catalog__inner">
+          <div class="catalog__title">
+            <h2 class="title">Каталог животных</h2>
+          </div>
+          <button class="catalog__btn-filter" type="button">Фильтр:
+            <span class="catalog__filter catalog__filter-all catalog__filter--display">все</span>
+            <span class="catalog__filter catalog__filter-a">собаки</span>
+            <span class="catalog__filter catalog__filter-b">кошки</span>
+            <span class="catalog__filter catalog__filter-c">попугаи</span>
+            <span class="catalog__filter catalog__filter-d">обезьяны</span>
+            <span class="catalog__filter catalog__filter-e">хомяки</span>
+          </button>
+          <ul class="catalog__buttons">
+            <li class="catalog__btn-item">
+              <button class="catalog__btn catalog__btn-all catalog__btn--active" type="button">Все</button>
+            </li>
+
+            <li class="catalog__btn-item">
+              <button class="catalog__btn catalog__btn-a" type="button">Собаки</button>
+            </li>
+
+            <li class="catalog__btn-item">
+              <button class="catalog__btn catalog__btn-b" type="button">Кошки</button>
+            </li>
+
+            <li class="catalog__btn-item">
+              <button class="catalog__btn catalog__btn-c" disabled type="button">Попугаи</button>
+            </li>
+
+            <li class="catalog__btn-item">
+              <button class="catalog__btn catalog__btn-d" type="button">Обезьяны</button>
+            </li>
+
+            <li class="catalog__btn-item">
+              <button class="catalog__btn catalog__btn-e" disabled type="button">Хомяки</button>
+            </li>
+          </ul>
+
+          <ul class="catalog__list">
+            <li class="catalog__item  category-a">
+              <article class="pet-card">
+                <a class="pet-card__link" href="#">
+                  <div class="pet-card__inner">
+                    <div class="pet-card__top">
+                      <time class="pet-card__info">4 месяца </time>
+                      <span class="pet-card__info">0 наград</span>
+                    </div>
+                    <img class="pet-card__img" src="images/catalog/dog.png" alt="Английский спаниель">
+                    <div class="pet-card__desc">
+                      <h3 class="pet-card__title">Английский спаниель</h3>
+                      <div class="pet-card__text">
+                        <p>Отличный добрый и верный друг, которого Вы заслужили!</p>
+                      </div>
+                      <ul class="pet-card__list">
+                        <li class="pet-card__type">Собака</li>
+                        <li class="pet-card__type pet-card__type--red">Охотник</li>
+                      </ul>
+                      <span class="pet-card__price">5 900
+                        <span class="pet-card__currency">р.</span>
+                      </span>
+                    </div>
+                  </div>
+                </a>
+              </article>
+            </li>
+
+            <li class="catalog__item  category-b">
+              <article class="pet-card">
+                <a class="pet-card__link" href="#">
+                  <div class="pet-card__inner">
+                    <div class="pet-card__top">
+                      <time class="pet-card__info">9 месяца </time>
+                      <span class="pet-card__info">5 наград</span>
+                    </div>
+                    <img class="pet-card__img" src="images/catalog/cat.png" alt="Бенгальская кошка">
+                    <div class="pet-card__desc">
+                      <h3 class="pet-card__title">Бенгальская кошка</h3>
+                      <div class="pet-card__text">
+                        <p>Прекрасная подруга на дождливые холодные времена.</p>
+                      </div>
+                      <ul class="pet-card__list">
+                        <li class="pet-card__type">Кошка</li>
+                        <li class="pet-card__type pet-card__type--red">Мышкоедная</li>
+                      </ul>
+                      <span class="pet-card__price">5 900
+                        <span class="pet-card__currency">р.</span>
+                      </span>
+                    </div>
+                  </div>
+                </a>
+              </article>
+            </li>
+
+            <li class="catalog__item  category-d">
+              <article class="pet-card">
+                <a class="pet-card__link" href="#">
+                  <div class="pet-card__inner">
+                    <div class="pet-card__top">
+                      <time class="pet-card__info">11 месяца </time>
+                      <span class="pet-card__info">3 наград</span>
+                    </div>
+                    <img class="pet-card__img" src="images/catalog/ape.png" alt="Шимпанзе">
+                    <div class="pet-card__desc">
+                      <h3 class="pet-card__title">Шимпанзе</h3>
+                      <div class="pet-card__text">
+                        <p>Домашний питомец для тех, кому не хочется скучать!</p>
+                      </div>
+                      <ul class="pet-card__list">
+                        <li class="pet-card__type">Обезьяна</li>
+                        <li class="pet-card__type pet-card__type--red">Охотник</li>
+                      </ul>
+                      <span class="pet-card__price">5 900
+                        <span class="pet-card__currency">р.</span>
+                      </span>
+                    </div>
+                  </div>
+                </a>
+              </article>
+            </li>
+
+            <li class="catalog__item  category-d">
+              <article class="pet-card">
+                <a class="pet-card__link" href="#">
+                  <div class="pet-card__inner">
+                    <div class="pet-card__top">
+                      <time class="pet-card__info">11 месяца </time>
+                      <span class="pet-card__info">3 наград</span>
+                    </div>
+                    <img class="pet-card__img" src="images/catalog/ape.png" alt="Шимпанзе">
+                    <div class="pet-card__desc">
+                      <h3 class="pet-card__title">Шимпанзе</h3>
+                      <div class="pet-card__text">
+                        <p>Домашний питомец для тех, кому не хочется скучать!</p>
+                      </div>
+                      <ul class="pet-card__list">
+                        <li class="pet-card__type">Обезьяна</li>
+                        <li class="pet-card__type pet-card__type--red">Травоядная</li>
+                      </ul>
+                      <span class="pet-card__price">5 900
+                        <span class="pet-card__currency">р.</span>
+                      </span>
+                    </div>
+                  </div>
+                </a>
+              </article>
+            </li>
+
+            <li class="catalog__item  category-a">
+              <article class="pet-card">
+                <a class="pet-card__link" href="#">
+                  <div class="pet-card__inner">
+                    <div class="pet-card__top">
+                      <time class="pet-card__info">4 месяца </time>
+                      <span class="pet-card__info">0 наград</span>
+                    </div>
+                    <img class="pet-card__img" src="images/catalog/dog.png" alt="Английский спаниель">
+                    <div class="pet-card__desc">
+                      <h3 class="pet-card__title">Английский спаниель</h3>
+                      <div class="pet-card__text">
+                        <p>Отличный добрый и верный друг, которого Вы заслужили!</p>
+                      </div>
+                      <ul class="pet-card__list">
+                        <li class="pet-card__type">Собака</li>
+                        <li class="pet-card__type pet-card__type--red">Охотник</li>
+                      </ul>
+                      <span class="pet-card__price">5 900
+                        <span class="pet-card__currency">р.</span>
+                      </span>
+                    </div>
+                  </div>
+                </a>
+              </article>
+            </li>
+
+            <li class="catalog__item  category-b">
+              <article class="pet-card">
+                <a class="pet-card__link" href="#">
+                  <div class="pet-card__inner">
+                    <div class="pet-card__top">
+                      <time class="pet-card__info">9 месяца </time>
+                      <span class="pet-card__info">5 наград</span>
+                    </div>
+                    <img class="pet-card__img" src="images/catalog/cat.png" alt="Бенгальская кошка">
+                    <div class="pet-card__desc">
+                      <h3 class="pet-card__title">Бенгальская кошка</h3>
+                      <div class="pet-card__text">
+                        <p>Прекрасная подруга на дождливые холодные времена.</p>
+                      </div>
+                      <ul class="pet-card__list">
+                        <li class="pet-card__type">Кошка</li>
+                        <li class="pet-card__type pet-card__type--red">Мышкоедная</li>
+                      </ul>
+                      <span class="pet-card__price">5 900
+                        <span class="pet-card__currency">р.</span>
+                      </span>
+                    </div>
+                  </div>
+                </a>
+              </article>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="photos">
+      <div class="container">
+        <div class="photos__title">
+          <h2 class="title">Мы любим поиграть</h2>
+        </div>
+        <ul class="photos__inner">
+          <li class="photos__item">
+            <ul class="photos__list">
+              <li class="photos__photo">
+                <a class="photos__link" href="images/photos/cat.jpg" data-fancybox="images" data-width="2400"
+                  data-height="1600">
+                  <img class="photos__img" src="images/photos/cat.jpg" alt="Кошка">
+                  <div class="photos__svg">
+                    <svg class="svg-photo">
+                      <use xlink:href="images/sprite.svg#search"></use>
+                    </svg>
+                  </div>
+                </a>
+              </li>
+
+              <li class="photos__photo">
+                <a class="photos__link" href="images/photos/parot.jpg" data-fancybox="images" data-width="2400"
+                  data-height="1600">
+                  <img class="photos__img" src="images/photos/parot.jpg" alt="Попугай">
+                  <div class="photos__svg">
+                    <svg class="svg-photo">
+                      <use xlink:href="images/sprite.svg#search"></use>
+                    </svg>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </li>
+
+          <li class="photos__item">
+            <ul class="photos__list">
+              <li class="photos__photo">
+                <a class="photos__link" href="images/photos/ape.jpg" data-fancybox="images" data-width="2400"
+                  data-height="1600">
+                  <span class="sr-only">Нажмите, чтобы увидеть фото детальнее</span>
+                  <img class="photos__img" src="images/photos/ape.jpg" alt="Обезьяна">
+                  <div class="photos__svg">
+                    <svg class="svg-photo">
+                      <use xlink:href="images/sprite.svg#search"></use>
+                    </svg>
+                  </div>
+                </a>
+              </li>
+
+              <li class="photos__photo">
+                <a class="photos__link" href="images/photos/hamster.jpg" data-fancybox="images" data-width="2400"
+                  data-height="1600">
+                  <span class="sr-only">Нажмите, чтобы увидеть фото детальнее</span>
+                  <img class="photos__img" src="images/photos/hamster.jpg" alt="Хомяк">
+                  <div class="photos__svg">
+                    <svg class="svg-photo">
+                      <use xlink:href="images/sprite.svg#search"></use>
+                    </svg>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </li>
+
+          <li class="photos__item">
+            <ul class="photos__list">
+              <li class="photos__photo">
+                <a class="photos__link" href="images/photos/dogs.jpg" data-fancybox="images" data-width="2400"
+                  data-height="1600">
+                  <span class="sr-only">Нажмите, чтобы увидеть фото детальнее</span>
+                  <img class="photos__img" src="images/photos/dogs.jpg" alt="Собаки">
+                  <div class="photos__svg">
+                    <svg class="svg-photo">
+                      <use xlink:href="images/sprite.svg#search"></use>
+                    </svg>
+                  </div>
+                </a>
+              </li>
+
+              <li class="photos__photo">
+                <a class="photos__link" href="images/photos/dog.jpg" data-fancybox="images" data-width="2400"
+                  data-height="1600">
+                  <span class="sr-only">Нажмите, чтобы увидеть фото детальнее</span>
+                  <img class="photos__img" src="images/photos/dog.jpg" alt="Собака">
+                  <div class="photos__svg">
+                    <svg class="svg-photo">
+                      <use xlink:href="images/sprite.svg#search"></use>
+                    </svg>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+
+        <ul class="photos__slider">
+          <li class="photos__slide">
+            <a class="photos__link" href="images/photos/cat.jpg" data-fancybox="images" data-width="2400"
+              data-height="1600">
+              <span class="sr-only">Нажмите, чтобы увидеть фото детальнее</span>
+              <img class="photos__img" src="images/photos/cat.jpg" alt="Кошка">
+              <div class="photos__svg">
+                <svg class="svg-photo">
+                  <use xlink:href="images/sprite.svg#search"></use>
+                </svg>
+              </div>
+            </a>
+          </li>
+
+          <li class="photos__slide">
+            <a class="photos__link" href="images/photos/parot.jpg" data-fancybox="images" data-width="2400"
+              data-height="1600">
+              <span class="sr-only">Нажмите, чтобы увидеть фото детальнее</span>
+              <img class="photos__img" src="images/photos/parot.jpg" alt="Попугай">
+              <div class="photos__svg">
+                <svg class="svg-photo">
+                  <use xlink:href="images/sprite.svg#search"></use>
+                </svg>
+              </div>
+            </a>
+          </li>
+
+          <li class="photos__slide">
+            <a class="photos__link" href="images/photos/ape.jpg" data-fancybox="images" data-width="2400"
+              data-height="1600">
+              <span class="sr-only">Нажмите, чтобы увидеть фото детальнее</span>
+              <img class="photos__img" src="images/photos/ape.jpg" alt="Обезьяна">
+              <div class="photos__svg">
+                <svg class="svg-photo">
+                  <use xlink:href="images/sprite.svg#search"></use>
+                </svg>
+              </div>
+            </a>
+          </li>
+
+          <li class="photos__slide">
+            <a class="photos__link" href="images/photos/hamster.jpg" data-fancybox="images" data-width="2400"
+              data-height="1600">
+              <span class="sr-only">Нажмите, чтобы увидеть фото детальнее</span>
+              <img class="photos__img" src="images/photos/hamster.jpg" alt="Хомяк">
+              <div class="photos__svg">
+                <svg class="svg-photo">
+                  <use xlink:href="images/sprite.svg#search"></use>
+                </svg>
+              </div>
+            </a>
+          </li>
+
+          <li class="photos__slide">
+            <a class="photos__link" href="images/photos/dogs.jpg" data-fancybox="images" data-width="2400"
+              data-height="1600">
+              <span class="sr-only">Нажмите, чтобы увидеть фото детальнее</span>
+              <img class="photos__img" src="images/photos/dogs.jpg" alt="Собаки">
+              <div class="photos__svg">
+                <svg class="svg-photo">
+                  <use xlink:href="images/sprite.svg#search"></use>
+                </svg>
+              </div>
+            </a>
+          </li>
+
+          <li class="photos__slide">
+            <a class="photos__link" class="photos__link" href="images/photos/dog.jpg" data-fancybox="images"
+              data-width="2400" data-height="1600">
+              <span class="sr-only">Нажмите, чтобы увидеть фото детальнее</span>
+              <img class="photos__img" src="images/photos/dog.jpg" alt="Собака">
+              <div class="photos__svg">
+                <svg class="svg-photo">
+                  <use xlink:href="images/sprite.svg#search"></use>
+                </svg>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="team" id="about">
+      <div class="container">
+        <div class="team__title">
+          <h2 class="title">О питомнике Happy Pet</h2>
+        </div>
+        <div class="team__inner">
+          <div class="team__left">
+            <h3 class="team__subtitle">Мы - команда мечтателей</h3>
+            <div class="team__text">
+              <p>Нашей главной специализацией является выращивание клематисов. В нашей коллекции имеется более 450 видео
+                и
+                сортов клематисов, но для коммерческих целей мы производим только немногим более 250 видов клематисов.
+              </p>
+              <p>У нас также есть дополнительная специальность: выращивание растений, которые могут расти в саду. В
+                плохих климатических условиях мы производим более сотни видов и сортов таких растений.</p>
+            </div>
+            <a class="team__link" href="">Читать больше</a>
+          </div>
+          <div class="team__photo">
+            <img class="team__img" src="images/team-bg.png" alt="Фото команды">
+          </div>
+        </div>
+    </section>
+
+    <footer class="footer" id="footer" style="  background-image: url(images/footer-bg.jpg);">
+      <div class="container">
+        <h2 class="title title--big">Есть вопросы? Задавайте! </h2>
+        <form class="footer__inner">
+          <input type="text" name="name" placeholder="Введите имя" class="footer__name">
+          <input type="email" name="email" placeholder="Введите E-mail" class="footer__name">
+          <input type="tel" name="tel" placeholder="Введите телефон" class="footer__name">
+          <input type="text" name="question" placeholder="Тема вопроса" class="footer__name">
+          <div class="footer__textarea">
+            <textarea name="massage" placeholder="Введите сообщение" class="footer__text"></textarea>
+            <button class="footer__btn" type="submit">
+              <span class="sr-only">Отправить форму с данными</span>
+              <svg class="svg-arrow">
+                <use xlink:href="images/sprite.svg#btn-arrow"></use>
+              </svg>
+            </button>
+          </div>
+
+          <label class="footer__label">
+            <input class="footer__checkbox" type="checkbox">
+            <div class="footer__label-text">
+              <span class="footer__desc">Я согласен на обработку</span>
+              <a class="footer__link" href="#">моих персональных данных</a>
+            </div>
+          </label>
+          <label class="footer__label">
+            <input class=" footer__checkbox" type="checkbox">
+            <div class="footer__label-text">
+              <span class="footer__desc">Я согласен с</span>
+              <a class="footer__link" href="#">политикой конфиденциальности</a>
+            </div>
+          </label>
+        </form>
+        <div class="footer__bottom">
+          <div class="footer__footer">
+            <a class="logo logo--display" href="#body">
+              <img class="logo__img" src="images/logo-white.png" alt="лого">
+            </a>
+            <span class="footer__text-bottom">2020 © Все права защищены</span>
+            <a class="footer__link-bottom" href="tel:+79062431868">+7 (906) 243-18-68</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </main>
+
+  <script src="js/main.min.js"></script>
+
+</body>
+
+</html>
