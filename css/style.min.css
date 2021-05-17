@@ -2840,6 +2840,9 @@ body {
 
 .pet-card__img {
   margin: 0 auto;
+  margin-bottom: 5px;
+  max-width: 260px;
+  max-height: 187px;
 }
 
 .pet-card__desc {
@@ -2929,8 +2932,22 @@ body {
   background-image: url(../images/arrow.svg);
 }
 
+.pets__photo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  height: 80%;
+}
+
 .pets__img {
-  margin: 0 auto;
+  max-width: 150px;
+  max-height: 180px;
 }
 
 .slick-slide-del {
